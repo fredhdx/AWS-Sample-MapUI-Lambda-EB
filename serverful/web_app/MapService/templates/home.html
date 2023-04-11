@@ -1,0 +1,76 @@
+
+{% extends "layout.html" %}
+{% block homepage %}
+    <style>
+        body {
+        background: #eee;
+        }
+
+        .name {
+        color: darkblue;
+        }
+
+        .work {
+        font-weight: bold;
+        font-size: 15px;
+        }
+
+        .about span {
+        font-size: 13px;
+        }
+
+        .v-profile {
+        color: blue;
+        cursor: pointer;
+        }
+
+        .box {
+        -webkit-box-shadow: 13px 12px 5px -10px rgba(196,194,196,0.72);
+        -moz-box-shadow: 13px 12px 5px -10px rgba(196,194,196,0.72);
+        box-shadow: 13px 12px 5px -10px rgba(196,194,196,0.72);
+        height: 200px;
+        }
+
+        .col-md-3 {
+        margin-top: 10px;
+        }
+    </style>
+    <h1 class="text-center"><b>MapService</b></h1>
+    <h5 class="text-center"><b>MAP SERVICES</b> Made Simple.</h5>
+    <br>
+    <h6 class="text-center">...</h6>
+    <h6 class="text-center">Comparing Serverless and Serverful Performance for An Application Using Microservices Architecture</h6>
+    <h6 class="text-center">...</h6>
+    <div class="container text-center mt-5 mb-2">
+        <h1 class="mb-0">Meet our Team</h1></div>
+    <div class="container mt-3">
+        <div class="row justify-content-center">
+            <div class="col-md-2">
+                <div class="bg-white p-3 text-center rounded box"><img class="img-responsive rounded-circle" src="{{ url_for('static', filename='images/default.jpg') }}" width="90">
+                    <h5 class="mt-3 name">Khaled<br>Al Butainy</h5>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="bg-white p-3 text-center rounded box"><img class="img-responsive rounded-circle" src="{{ url_for('static', filename='images/default.jpg') }}" width="90">
+                    <h5 class="mt-3 name">Dongxu Huang</h5>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="bg-white p-3 text-center rounded box"><img class="img-responsive rounded-circle" src="{{ url_for('static', filename='images/default.jpg') }}" width="90">
+                    <h5 class="mt-3 name">Xikai Li</h5>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="bg-white p-3 text-center rounded box"><img class="img-responsive rounded-circle" src="{{ url_for('static', filename='images/default.jpg') }}" width="90">
+                    <h5 class="mt-3 name">Manojkumar Durai</h5>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="bg-white p-3 text-center rounded box"><img class="img-responsive rounded-circle" src="{{ url_for('static', filename='images/default.jpg') }}" width="90">
+                    <h5 class="mt-3 name">Rituraj Ojha</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock homepage%}

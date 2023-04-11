@@ -1,0 +1,10 @@
+{
+    "dev": {
+        "app_function": "app.app",
+        "aws_region": "us-west-1",
+        "profile_name": "default",
+        "project_name": "zappa-monkey",
+        "runtime": "python3.8",
+        "s3_bucket": "zappa-o4x5f2bbw"
+    }
+}

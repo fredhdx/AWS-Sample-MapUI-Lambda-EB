@@ -1,0 +1,12 @@
+{
+    "SECRET_KEY": "",
+
+    "LOCAL_MONGO_URI": "",
+    "ATLAS_MONGO_URI": 
+"",
+    "DATABASE_NAME": "",
+
+    "MAPBOX_ACCESS_TOKEN": 
+"",
+    "MAPBOX_STYLE": ""
+}
